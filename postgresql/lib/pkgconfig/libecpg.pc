@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 9.5.4
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/bitnami/lampstack-linux-x64/output/postgresql/include
+Libs: -L/bitnami/lampstack-linux-x64/output/postgresql/lib -lecpg
+Libs.private: -L/bitnami/lampstack-linux-x64/output/common/lib -L/bitnami/lampstack-linux-x64/output/sqlite/lib -lm -lpthread

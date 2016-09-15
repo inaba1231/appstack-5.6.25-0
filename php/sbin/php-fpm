@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/inaba/appstack-5.6.25-0/scripts/setenv.sh
+
+exec /home/inaba/appstack-5.6.25-0/php/sbin/.php-fpm.bin -y /home/inaba/appstack-5.6.25-0/php/etc/php-fpm.conf -p /home/inaba/appstack-5.6.25-0/php/var/ -c /home/inaba/appstack-5.6.25-0/php/etc/php.ini "$@"

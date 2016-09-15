@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/inaba/appstack-5.6.25-0/scripts/setenv.sh
+
+exec /home/inaba/appstack-5.6.25-0/common/bin/.conjure.bin  "$@"

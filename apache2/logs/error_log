@@ -1,0 +1,25 @@
+[Sun Sep 11 18:16:25.687427 2016] [ssl:warn] [pid 4059] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 11 18:16:25.758060 2016] [ssl:warn] [pid 4060] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 11 18:16:25.782080 2016] [mpm_prefork:notice] [pid 4060] AH00163: Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.25 configured -- resuming normal operations
+[Sun Sep 11 18:16:25.782141 2016] [core:notice] [pid 4060] AH00094: Command line: '/home/inaba/appstack-5.6.25-0/apache2/bin/httpd.bin -f /home/inaba/appstack-5.6.25-0/apache2/conf/httpd.conf'
+[Sun Sep 11 18:16:46.591411 2016] [mpm_prefork:notice] [pid 4060] AH00169: caught SIGTERM, shutting down
+[Sun Sep 11 18:16:49.315951 2016] [ssl:warn] [pid 4102] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 11 18:16:49.387064 2016] [ssl:warn] [pid 4103] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Sun Sep 11 18:16:49.429672 2016] [mpm_prefork:notice] [pid 4103] AH00163: Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.25 configured -- resuming normal operations
+[Sun Sep 11 18:16:49.429739 2016] [core:notice] [pid 4103] AH00094: Command line: '/home/inaba/appstack-5.6.25-0/apache2/bin/httpd.bin -f /home/inaba/appstack-5.6.25-0/apache2/conf/httpd.conf'
+[Sun Sep 11 20:39:02.826827 2016] [core:warn] [pid 4103] AH00045: child process 4106 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:02.826914 2016] [core:warn] [pid 4103] AH00045: child process 4109 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:02.826935 2016] [core:warn] [pid 4103] AH00045: child process 8404 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:04.829156 2016] [core:warn] [pid 4103] AH00045: child process 4106 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:04.829225 2016] [core:warn] [pid 4103] AH00045: child process 4109 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:04.829238 2016] [core:warn] [pid 4103] AH00045: child process 8404 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:06.831551 2016] [core:warn] [pid 4103] AH00045: child process 4106 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:06.831737 2016] [core:notice] [pid 4103] AH00051: child pid 4109 exit signal Segmentation fault (11), possible coredump in /home/inaba/appstack-5.6.25-0/apache2
+[Sun Sep 11 20:39:06.831770 2016] [core:warn] [pid 4103] AH00045: child process 8404 still did not exit, sending a SIGTERM
+[Sun Sep 11 20:39:08.834231 2016] [core:error] [pid 4103] AH00046: child process 4106 still did not exit, sending a SIGKILL
+[Sun Sep 11 20:39:08.834357 2016] [core:error] [pid 4103] AH00046: child process 8404 still did not exit, sending a SIGKILL
+[Sun Sep 11 20:39:09.835926 2016] [mpm_prefork:notice] [pid 4103] AH00169: caught SIGTERM, shutting down
+[Thu Sep 15 14:22:50.674154 2016] [ssl:warn] [pid 2145] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 14:22:50.797615 2016] [ssl:warn] [pid 2146] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Sep 15 14:22:51.409192 2016] [mpm_prefork:notice] [pid 2146] AH00163: Apache/2.4.23 (Unix) OpenSSL/1.0.2h PHP/5.6.25 configured -- resuming normal operations
+[Thu Sep 15 14:22:51.409299 2016] [core:notice] [pid 2146] AH00094: Command line: '/home/inaba/appstack-5.6.25-0/apache2/bin/httpd.bin -f /home/inaba/appstack-5.6.25-0/apache2/conf/httpd.conf'
